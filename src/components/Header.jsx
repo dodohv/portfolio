@@ -39,7 +39,7 @@ function Header() {
             </a>
             </Col>
               
-                <Col className="Tema">
+                <Col className="colheader">
                 <Link className='link' to="/"> 
                     Home
                 </Link>
