@@ -45,24 +45,15 @@ function Header() {
                 </Link>
                 </Col>
                 <Col className="colheader">
-                    <Link className="link" to="/sobre">
-                        Sobre
+                    <Link className="link" to="/api">
+                        Blog
                     </Link>
                 </Col>
-                <Col className="colheader">
-                    <Link className="link" to="/cadastro">
-                        Sign Up
-                    </Link>
-                </Col>
-                <Col className="colheader">
-                    <Link className="link" to="/login">
-                        Sign In
-                    </Link>
-                </Col>
+
                 <Col className="Tema" >
             
                     <a class="a" onClick={toggleTheme}>
-                    {temavalue}  <BsLightbulbFill/>
+                    <BsLightbulbFill/>{temavalue} 
                     </a>
 
                 </Col>

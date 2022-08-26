@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Spline from '@splinetool/react-spline';
 import Rotas from './pages/Rotas';
+// import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 import {BrowserRouter as Router} from 'react-router-dom';
 import Header from './components/Header';
 function App() {
@@ -11,10 +13,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header/>
+     
         <br/>
+
         <br/>
-        
         <Rotas/>
       </Router>
    

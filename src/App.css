@@ -5,13 +5,23 @@
   text-align: center;
 }
 
+.logododohv {
+  height: 5em;
+  padding: 1.9em;
+  will-change: filter;
+  background-size:90px;
+  background-repeat: no-repeat;
+}
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 5em;
+  padding: 1.9em;
   will-change: filter;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #ef6b99aa);
+}
+.logododohv:hover {
+  filter: drop-shadow(0 0 2em #ef6b99e4);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -30,7 +40,11 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+  a:nth-of-type(2) .logododohv {
+    animation: logo-spin infinite 20s linear;
+  }
 }
+
 
 .card {
   padding: 2em;
